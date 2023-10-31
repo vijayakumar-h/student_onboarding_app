@@ -1,6 +1,6 @@
 {
-    "name": "student_onboarding_app",
-    "short_name": "student_onboarding_app",
+    "name": "my_projects",
+    "short_name": "my_projects",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
