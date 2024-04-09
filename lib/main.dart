@@ -9,9 +9,11 @@ class StudentOnboardApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      themeMode: ThemeMode.light,
+      theme: AppTheme().appTheme,
       debugShowCheckedModeBanner: false,
-      home: InitialResourceApp(),
+      home: const InitialResourceApp(),
     );
   }
 }

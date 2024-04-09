@@ -1,4 +1,3 @@
-
 import 'package:student_onboarding_app/utils/common_exports.dart';
 
 class InitialResourceApp extends StatefulWidget {
@@ -9,13 +8,14 @@ class InitialResourceApp extends StatefulWidget {
 }
 
 class _InitialResourceAppState extends State<InitialResourceApp> {
-  @override
-  void initState() {
-    super.initState();
-    context.pushReplacement(Home());
-  }
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   context.pushAndRemoveUntil(const Home());
+  // }
+
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Home();
   }
 }
