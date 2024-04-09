@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:student_onboarding_app/utils/common_exports.dart';
 
 void main() {
   runApp(const StudentOnboardApp());
@@ -9,6 +9,9 @@ class StudentOnboardApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: InitialResourceApp(),
+    );
   }
 }
