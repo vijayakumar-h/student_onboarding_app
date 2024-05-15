@@ -21,7 +21,7 @@ class AppTextField extends StatelessWidget {
             decoration: InputDecoration(
               enabledBorder: OutlineInputBorder(
                 borderSide: BorderSide(
-                  color: Colors.grey.withOpacity(0.3),
+                  color: Colors.black.withOpacity(0.3),
                 ),
               ),
               errorBorder: OutlineInputBorder(
@@ -31,7 +31,7 @@ class AppTextField extends StatelessWidget {
               ),
               focusedBorder: OutlineInputBorder(
                 borderSide: BorderSide(
-                  color: Colors.grey.withOpacity(0.3),
+                  color: Colors.black.withOpacity(0.3),
                 ),
               ),
               hintText: placeHolder,

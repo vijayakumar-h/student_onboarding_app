@@ -7,5 +7,6 @@ export 'package:student_onboarding_app/initial_resources_app.dart';
 export 'package:student_onboarding_app/widgets/app_text_field.dart';
 export 'package:student_onboarding_app/widgets/primary_button.dart';
 export 'package:student_onboarding_app/widgets/secondary_button.dart';
+export 'package:student_onboarding_app/Authentication/login_screen.dart';
 export 'package:student_onboarding_app/utils/build_context_extension.dart';
 export 'package:student_onboarding_app/Authentication/create_account.dart';
