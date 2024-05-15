@@ -1,4 +1,3 @@
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:student_onboarding_app/utils/common_exports.dart';
 
 class Home extends StatelessWidget {

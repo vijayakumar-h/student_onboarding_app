@@ -16,6 +16,6 @@ class _InitialResourceAppState extends State<InitialResourceApp> {
 
   @override
   Widget build(BuildContext context) {
-    return const Home();
+    return const CrateAccount();
   }
 }
