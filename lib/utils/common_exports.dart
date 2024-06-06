@@ -1,12 +1,16 @@
 export 'package:flutter/material.dart';
 export 'package:flutter_svg/flutter_svg.dart';
-export 'package:student_onboarding_app/home.dart';
+export 'package:student_onboarding_app/home_drawer.dart';
+export 'package:student_onboarding_app/utils/constants.dart';
 export 'package:student_onboarding_app/utils/app_theme.dart';
+export 'package:student_onboarding_app/fretures/home/home.dart';
 export 'package:student_onboarding_app/utils/common_exports.dart';
 export 'package:student_onboarding_app/initial_resources_app.dart';
 export 'package:student_onboarding_app/widgets/app_text_field.dart';
 export 'package:student_onboarding_app/widgets/primary_button.dart';
+export 'package:student_onboarding_app/fretures/person/person.dart';
 export 'package:student_onboarding_app/widgets/secondary_button.dart';
 export 'package:student_onboarding_app/Authentication/login_screen.dart';
 export 'package:student_onboarding_app/utils/build_context_extension.dart';
 export 'package:student_onboarding_app/Authentication/create_account.dart';
+export 'package:student_onboarding_app/widgets/bottom_navigation_widget.dart';
