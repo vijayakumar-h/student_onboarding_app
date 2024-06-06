@@ -11,6 +11,7 @@ export 'package:student_onboarding_app/widgets/primary_button.dart';
 export 'package:student_onboarding_app/fretures/person/person.dart';
 export 'package:student_onboarding_app/widgets/secondary_button.dart';
 export 'package:student_onboarding_app/Authentication/login_screen.dart';
+export 'package:student_onboarding_app/widgets/app_scaffold_widget.dart';
 export 'package:student_onboarding_app/utils/build_context_extension.dart';
 export 'package:student_onboarding_app/Authentication/create_account.dart';
 export 'package:student_onboarding_app/widgets/bottom_navigation_widget.dart';
