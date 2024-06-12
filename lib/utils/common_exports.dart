@@ -15,3 +15,4 @@ export 'package:student_onboarding_app/widgets/app_scaffold_widget.dart';
 export 'package:student_onboarding_app/utils/build_context_extension.dart';
 export 'package:student_onboarding_app/Authentication/create_account.dart';
 export 'package:student_onboarding_app/widgets/bottom_navigation_widget.dart';
+export 'package:student_onboarding_app/widgets/app_pageview_scroll_widget.dart';

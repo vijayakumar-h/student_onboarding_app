@@ -11,11 +11,11 @@ class HomeDrawer extends StatelessWidget {
           body: ValueListenableBuilder(
             valueListenable: appController.currentIndex,
             builder: (context, index, __) => [
-              Home(),
-              Person(),
-              SizedBox(),
-              SizedBox(),
-              SizedBox(),
+              const Home(),
+              const Person(),
+              const CrateAccount(),
+              const LoginScreen(),
+              const SizedBox(),
             ][index],
           ),
         ),
